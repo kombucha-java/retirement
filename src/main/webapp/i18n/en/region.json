@@ -1,0 +1,10 @@
+{
+  "retirementApp": {
+    "Region": {
+      "null": "",
+      "RUS": "RUS",
+      "USA": "USA",
+      "OTHERS": "OTHERS"
+    }
+  }
+}

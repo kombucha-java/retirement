@@ -1,0 +1,40 @@
+{
+  "name": "Purchase",
+  "fields": [
+    {
+      "fieldName": "price",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "currency",
+      "fieldType": "Currency",
+      "fieldValues": "USD,RUB"
+    },
+    {
+      "fieldName": "number",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "comission",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "security",
+      "otherEntityRelationshipName": "purchase",
+      "relationshipName": "security"
+    }
+  ],
+  "entityTableName": "purchase",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["retirement"],
+  "changelogDate": "20210426150224"
+}

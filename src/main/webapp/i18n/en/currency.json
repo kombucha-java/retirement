@@ -1,0 +1,9 @@
+{
+  "retirementApp": {
+    "Currency": {
+      "null": "",
+      "USD": "USD",
+      "RUB": "RUB"
+    }
+  }
+}

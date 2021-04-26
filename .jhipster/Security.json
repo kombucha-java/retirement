@@ -1,0 +1,41 @@
+{
+  "name": "Security",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ticker",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "SecurityType",
+      "fieldValues": "SHARE,BOND,FUND"
+    },
+    {
+      "fieldName": "region",
+      "fieldType": "Region",
+      "fieldValues": "RUS,USA,OTHERS"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "purchase",
+      "otherEntityRelationshipName": "security",
+      "relationshipName": "purchase"
+    }
+  ],
+  "entityTableName": "security",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["retirement"],
+  "changelogDate": "20210426150223"
+}

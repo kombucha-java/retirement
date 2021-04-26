@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, org.keyko.retirement.domain.User.class.getName());
             createCache(cm, org.keyko.retirement.domain.Authority.class.getName());
             createCache(cm, org.keyko.retirement.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.keyko.retirement.domain.Security.class.getName());
+            createCache(cm, org.keyko.retirement.domain.Security.class.getName() + ".purchases");
+            createCache(cm, org.keyko.retirement.domain.Purchase.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

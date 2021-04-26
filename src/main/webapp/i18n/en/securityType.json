@@ -1,0 +1,10 @@
+{
+  "retirementApp": {
+    "SecurityType": {
+      "null": "",
+      "SHARE": "SHARE",
+      "BOND": "BOND",
+      "FUND": "FUND"
+    }
+  }
+}

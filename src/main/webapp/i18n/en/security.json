@@ -1,0 +1,28 @@
+{
+  "retirementApp": {
+    "security": {
+      "home": {
+        "title": "Securities",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Security",
+        "createOrEditLabel": "Create or edit a Security",
+        "notFound": "No Securities found"
+      },
+      "created": "A new Security is created with identifier {{ param }}",
+      "updated": "A Security is updated with identifier {{ param }}",
+      "deleted": "A Security is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Security {{ id }}?"
+      },
+      "detail": {
+        "title": "Security"
+      },
+      "id": "ID",
+      "name": "Name",
+      "ticker": "Ticker",
+      "type": "Type",
+      "region": "Region",
+      "purchase": "Purchase"
+    }
+  }
+}
